@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\Tareas\GitHub\Fundamentos_Progra_Zap1097\P001_HolaMunod_Zap1097\Source.cpp(83,17): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\User\Desktop\Tareas\GitHub\Fundamentos_Progra_Zap1097\P001_HolaMunod_Zap1097\Source.cpp(26,10): warning C4101: 'esVerdadero': variable local sin referencia
+  P001_HolaMunod_Zap1097.vcxproj -> C:\Users\User\Desktop\Tareas\GitHub\Fundamentos_Progra_Zap1097\P001_HolaMunod_Zap1097\x64\Debug\P001_HolaMunod_Zap1097.exe
