@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Fundamentos_Progra\\Zap1097_Bucles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37866C40-F2F9-41FD-AB1A-9404BED30C9D}|Zap1097_Bucles.vcxproj|C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Fundamentos_Progra\\Zap1097_Bucles\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{37866C40-F2F9-41FD-AB1A-9404BED30C9D}|Zap1097_Bucles.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Fundamentos_Progra\\Zap1097_Bucles\\Source.cpp",
+              "RelativeDocumentMoniker": "Source.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Fundamentos_Progra\\Zap1097_Bucles\\Source.cpp",
+              "RelativeToolTip": "Source.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T14:06:39.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

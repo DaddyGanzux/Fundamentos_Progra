@@ -4,9 +4,9 @@
 int main()
 {
 	setlocale(LC_ALL, "es_MX.UFT-8");
-	std::string apodo = "Franco";
+	std::string apodo = "Usuario1";
 	std::string apodo_usuario;
-	std::string contra = "Que tiene el c**o blanco";
+	std::string contra = "244466666";
 	std::string  contra_usuario;
 	std::cout << "Buenas bueeeenaaaaaaaaaaaaaaass, ¿Cúal es tu nombre de usuario? ";
 	std::getline(std::cin, apodo_usuario);
@@ -16,11 +16,11 @@ int main()
 		std::getline(std::cin, contra_usuario);
 		if (contra == contra_usuario)
 		{
-			std::cout << "Por que su mujer lo lava con ariel, veo que eres un hombre de cultura y que si te la sabes, Bienvenido " << apodo << std::endl;
+			std::cout << "Bienvenido " << apodo << std::endl;
 		}
 		else
 		{
-			std::cout << "Orale!!!! No hande de chismoso vuelve cuando aprendas de cultura\n";
+			std::cout << "Orale!!!! No ande de chismoso vuelve cuando aprendas de cultura\n";
 		}
 	}
 	else
