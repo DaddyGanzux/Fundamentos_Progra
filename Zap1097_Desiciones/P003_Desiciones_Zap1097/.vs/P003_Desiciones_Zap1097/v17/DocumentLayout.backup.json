@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Zap1097_Desiciones\\P003_Desiciones_Zap1097\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Fundamentos_Progra\\Zap1097_Desiciones\\P003_Desiciones_Zap1097\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42FA1B63-F48A-419E-986D-AC5676CC35ED}|P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097.vcxproj|C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Zap1097_Desiciones\\P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{42FA1B63-F48A-419E-986D-AC5676CC35ED}|P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097.vcxproj|C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Fundamentos_Progra\\Zap1097_Desiciones\\P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{42FA1B63-F48A-419E-986D-AC5676CC35ED}|P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097.vcxproj|solutionrelative:P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "P003_Desiciones_Zap1097.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Zap1097_Desiciones\\P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Fundamentos_Progra\\Zap1097_Desiciones\\P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097.cpp",
               "RelativeDocumentMoniker": "P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097.cpp",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Zap1097_Desiciones\\P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Fundamentos_Progra\\Zap1097_Desiciones\\P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097.cpp",
               "RelativeToolTip": "P003_Desiciones_Zap1097\\P003_Desiciones_Zap1097.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-04T13:54:26.571Z",
               "EditorCaption": ""
