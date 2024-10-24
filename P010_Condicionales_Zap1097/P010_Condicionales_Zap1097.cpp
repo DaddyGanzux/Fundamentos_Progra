@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include <cctype> 
+#include <codecvt>
+#include <Locale>
 
 bool esSoloLetras(const std::string& str)  // Función para verificar si un string solo contiene letras
 {
@@ -28,6 +30,7 @@ bool esSoloNumeros(const std::string& str)  // Función para verificar si un str
 
 int main()
 {
+    setlocale(LC_ALL, "es_MX.UFT - 8");
     std::string cont = "";      
     std::string cont_us;        
     std::string user = "";      
@@ -65,44 +68,14 @@ int main()
     if (esSi)
     {
        
-        if (cuentaCreada)
-        {
-           
-            while (!accesoConcedido)
-            {
-                std::cout << "Ingrese su Usuario: ";
-                std::getline(std::cin, user_us);
+        std::cout << "No hay cuenta existente";
 
-                if (user == user_us)
-                {
-                    std::cout << "Ingrese su contraseña: ";
-                    std::getline(std::cin, cont_us);
-
-                    if (cont == cont_us)
-                    {
-                        std::cout << "Acceso concedido, adelante " << user << ".\n";
-                        accesoConcedido = true;
-                    }
-                    else
-                    {
-                        std::cout << "Contraseña incorrecta. Favor de intentar de nuevo.\n";
-                    }
-                }
-                else
-                {
-                    std::cout << "Usuario inválido. Favor de intentar de nuevo.\n";
-                }
-            }
-        }
-        else
-        {
-            std::cout << "No existe ninguna cuenta registrada. Por favor, crea una nueva cuenta.\n";
-        }
     }
     else
     {
         bool usuarioValido = false;
                         // Registrar nuevo usuario y contraseña
+
         bool contrasenaValida = false;
 
         
@@ -140,10 +113,36 @@ int main()
         std::cout << "Cuenta creada exitosamente.\n";
         cuentaCreada = true;
 
+            while (!accesoConcedido)
+            {
+                std::cout << "Ingrese su Usuario: \n";
+                std::getline(std::cin, user_us);
+
+                if (user == user_us)
+                {
+                    std::cout << "Ingrese su contraseña: \n";
+                    std::getline(std::cin, cont_us);
+
+                    if (cont == cont_us)
+                    {
+                        std::cout << "Acceso concedido, adelante " << user << ".\n";
+                        accesoConcedido = true;
+                    }
+                    else
+                    {
+                        std::cout << "Contraseña incorrecta. Favor de intentar de nuevo.\n";
+                    }
+                }
+                else
+                {
+                    std::cout << "Usuario inválido. Favor de intentar de nuevo.\n";
+                }
+            }
         
-        accesoConcedido = true;
-        std::cout << "Acceso concedido, adelante " << user << ".\n";
+       
     }
 
-    return 0;
+        std::cout << "Acceso concedido, adelante " << user << ".\n";
+
+        return 0;
 }
