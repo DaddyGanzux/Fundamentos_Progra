@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Fundamentos_Progra\\P010_Condicionales_Zap1097\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B93C4A0-E4A0-4548-B9FC-B721A3A0BF7E}|P010_Condicionales_Zap1097.vcxproj|C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Fundamentos_Progra\\P010_Condicionales_Zap1097\\P010_Condicionales_Zap1097.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8B93C4A0-E4A0-4548-B9FC-B721A3A0BF7E}|P010_Condicionales_Zap1097.vcxproj|solutionrelative:P010_Condicionales_Zap1097.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +22,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Microsoft.CppCommon.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets",
+              "ViewState": "AgIAACwKAAAAAAAAAAAQwH4EAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-25T13:06:22.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "P010_Condicionales_Zap1097.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Fundamentos_Progra\\P010_Condicionales_Zap1097\\P010_Condicionales_Zap1097.cpp",
               "RelativeDocumentMoniker": "P010_Condicionales_Zap1097.cpp",
               "ToolTip": "C:\\Users\\User\\Desktop\\Tareas\\GitHub\\Fundamentos_Progra_Zap1097\\Fundamentos_Progra\\P010_Condicionales_Zap1097\\P010_Condicionales_Zap1097.cpp",
               "RelativeToolTip": "P010_Condicionales_Zap1097.cpp",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-24T03:44:26.41Z",
               "EditorCaption": ""
