@@ -23,10 +23,7 @@ int main()
 		double numero3 = 0;
 		double numero4 = 0;
 
-	while (esSi)
-	{
-
-		std::cout << "Puedes realizar distintas operaciones las cuales son: 1- Suma 2- Resta 3- Multiplicacion 4- Divicion 5- Potencia al cuadrado 6- Raiz Cuadrada  7- Mayor o Menor que.\n";
+		std::cout << "Puedes realizar distintas operaciones las cuales son: 1- Suma 2- Resta 3- Multiplicacion 4- Divicion 5- Potencia al cuadrado 6- Raiz Cuadrada  7- Mayor o Menor que 8- Valor absoluto.\n";
 		std::cin >> opcion;
 
 		switch (opcion)
@@ -218,7 +215,7 @@ int main()
 
 				std::cout << "Este es tu resultado\n";
 
-				if (numero1 || numero2 != 0) {
+				if (numero2 != 0) {
 					std::cout << "1.- " << numero1 << " ÷ " << numero2 << " es igual a " << numero1 / numero2 << std::endl;
 				}
 				else {
@@ -239,7 +236,7 @@ int main()
 				std::cin >> numero3;
 
 
-				if (numero1 || numero2 || numero3 != 0)
+				if (numero3 != 0)
 				{
 					std::cout << "1.- " << numero1 << " ÷ " << numero2 << " ÷ " << numero3 << " es igual a " << numero1 / numero2 / numero3 << std::endl;
 				}
@@ -265,7 +262,7 @@ int main()
 				std::cin >> numero4;
 
 
-				if (numero1 || numero2 || numero3 || numero4 != 0) {
+				if (numero4 != 0) {
 					std::cout << "1.- " << numero1 << " ÷ " << numero2 << " ÷ " << numero3 << " ÷ " << numero4 << " es igual a " << numero1 / numero2 / numero3 / numero4 << std::endl;
 				}
 				else
@@ -340,17 +337,19 @@ int main()
 
 			break;
 
-		}
-			std::cout << "¿Desea repetir? (s/n)";
-			std::cin >> respuesta;
-			if (respuesta == 's' || respuesta == 'S')
+		case 8:
+
+			std::cout << "Dame tu primer valor---\n";
+			std::cin >> numero1;
+
+			if (numero1 < 0) 
 			{
-				esSi = true;
+				numero1 = -numero1;
 			}
-			else
-				if (respuesta == 'n' || respuesta == 'N')
-				{
-					esSi = false;
-				}
+
+			std::cout << "El valor absoluto es: " << numero1 << std::endl;
+
+			break;
+
 	}
 }
