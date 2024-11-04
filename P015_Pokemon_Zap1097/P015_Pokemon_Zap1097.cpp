@@ -59,7 +59,10 @@ public:
 // Función principal del juego
 void juegoRPG() 
 {
+    setlocale(LC_ALL, "Spanish");
    
+    std::string maestro = "ganso";
+    std::string maestro_u;
     char respuesta;
 
     std::string qw = "Bienvenido al Simulador de RPG!\n";
@@ -69,7 +72,7 @@ void juegoRPG()
     imprimirLento(qwe, 40);
 
     std::string qwer = "Cluck juró venganza y comenzó su entrenamiento en secreto.Aprendió artes marciales de un viejo ganso llamado `El Maestro´ y se forjó una armadura con materiales reciclados.Su espada, un cuchillo de cocina afilado, y su escudo, un plato de metal, estaban listos para la batalla.\n";
-    imprimirLento(qwe, 40);
+    imprimirLento(qwer, 40);
 
     std::string qe = "Con su armadura puesta, Cluck se dirigió hacia el restaurante KFC, donde su legendario líder, el Coronel Sanders, esperaba.Al acercarse, Cluck sintió la mirada del Coronel a través de la ventana. El Coronel sonrió, sabiendo que otro pollo no podría detener su imperio.\n";
     imprimirLento(qe, 40);
@@ -77,12 +80,17 @@ void juegoRPG()
     std::string qr = "Cluck llegó a la puerta y, con un golpe poderoso, la abrió. `¡Vengo por mis hermanos!´, gritó. El Coronel se rió y llamó a sus guardias. Cluck se preparó para la lucha, listo para enfrentar cualquier obstáculo que se interpusiera entre él y la libertad de sus hermanos.\n";
     imprimirLento(qr, 40);
 
-    Personaje jugador("Cluck", 200, 5, 40);
+    std::cout << "Presione enter para continuar\n";
+    std::cin.get();
+
+    Personaje jugador("Cluck", 250, 20, 40);
        
     Personaje enemigo("Coronel", 350, -10, 7);
 
     while (jugador.estaVivo() && enemigo.estaVivo()) 
     {
+        system("cls");
+
         std::cout << "Escoje un ataque: 1- ataque ala  2- Picotaso rapido  3- Espadazo\n";
         std::cin >> respuesta;
 
@@ -92,6 +100,23 @@ void juegoRPG()
             {
                 std::cout << enemigo.nombre << " ha sido derrotado!" << std::endl;
                 std::cout << "-Coronel: NoOoOoOoOoOoOoOoOoOoO\n";
+                std::cout << "El Coroner dispuesto a llevarse a Cluck y a todos sus hermanos carga el ataque mas poderso de todos\n";
+                std::cout << "Para esquivar el ataque Cluck recurre al recurso de recordar los amigos que hizo durante la aventura pero...\n";
+                std::cout << "¿De que especie era su maestro?\n";
+                std::cin.ignore();
+                std::getline(std::cin, maestro_u);
+                if (maestro == maestro_u)
+                {
+                    std::string as = "Cluck salio victorioso y esta feliz de volver a ver a sus hermanos\n";
+                    imprimirLento(as, 50);
+                    break;
+                }
+                else
+                {
+                    std::string ad = "Cluck fallo en su cometido y por su mala memoria fallecieron todos los pollos del lugar y de entre las cenizas el Coronel resirje como un fenix llendo a otra de sus sucursales\n";
+                    imprimirLento(ad, 50);
+                    break;
+                }
                 break;
             }
 
@@ -104,6 +129,11 @@ void juegoRPG()
                 imprimirLento(qt, 70);
                 break;
             }
+
+            std::cin.ignore();
+
+            std::cout << "Presione enter para continuar\n";
+            std::cin.get();
 
     }
 }
