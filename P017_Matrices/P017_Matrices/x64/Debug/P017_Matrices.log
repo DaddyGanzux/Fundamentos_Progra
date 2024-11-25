@@ -1,0 +1,23 @@
+﻿  P017_Matrices.cpp
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(21,19): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(33,14): error C2146: error de sintaxis: falta ')' delante del identificador 'i'
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(33,14): error C2065: 'i': identificador no declarado
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(33,21): error C2065: 'i': identificador no declarado
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(33,28): error C2065: 'i': identificador no declarado
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(33,31): error C2059: error de sintaxis: ')'
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(34,13): error C2059: error de sintaxis: 'for'
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(34,27): error C2143: error de sintaxis: falta ')' delante de ';'
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(34,29): error C2065: 'j': identificador no declarado
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(34,36): error C2065: 'j': identificador no declarado
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(34,39): error C2059: error de sintaxis: ')'
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(35,37): error C2065: 'i': identificador no declarado
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(35,40): error C2065: 'j': identificador no declarado
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(35,49): error C2059: error de sintaxis: ';'
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(37,19): error C2039: "cout": no es un miembro de "`global namespace'"
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(37,19): error C2065: 'cout': identificador no declarado
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(37,32): error C2563: hay una falta de correspondencia en la lista de parámetros formales
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(37,32): error C2568: '<<': no se puede resolver la sobrecarga de funciones
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(39,5): error C2059: error de sintaxis: '}'
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(39,5): error C2143: error de sintaxis: falta ';' delante de '}'
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(49,1): error C2059: error de sintaxis: '}'
+C:\Users\ALUMNO\Desktop\-------} NO BORRAR porfa\Fundamentos_Progra\P017_Matrices\P017_Matrices\P017_Matrices.cpp(49,1): error C2143: error de sintaxis: falta ';' delante de '}'
