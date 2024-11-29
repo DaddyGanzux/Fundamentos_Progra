@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\-------} NO BORRAR porfa\\Fundamentos_Progra\\Zap1097_Punteros_v2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A84133C2-4F07-43B5-B3D1-64712FB89AAC}|Zap1097_Punteros_v2\\Zap1097_Punteros_v2.vcxproj|C:\\Users\\ALUMNO\\Desktop\\-------} NO BORRAR porfa\\Fundamentos_Progra\\Zap1097_Punteros_v2\\Zap1097_Punteros_v2\\Zap1097_Punteros_v2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A84133C2-4F07-43B5-B3D1-64712FB89AAC}|Zap1097_Punteros_v2\\Zap1097_Punteros_v2.vcxproj|solutionrelative:Zap1097_Punteros_v2\\Zap1097_Punteros_v2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Zap1097_Punteros_v2.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\-------} NO BORRAR porfa\\Fundamentos_Progra\\Zap1097_Punteros_v2\\Zap1097_Punteros_v2\\Zap1097_Punteros_v2.cpp",
+              "RelativeDocumentMoniker": "Zap1097_Punteros_v2\\Zap1097_Punteros_v2.cpp",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\-------} NO BORRAR porfa\\Fundamentos_Progra\\Zap1097_Punteros_v2\\Zap1097_Punteros_v2\\Zap1097_Punteros_v2.cpp",
+              "RelativeToolTip": "Zap1097_Punteros_v2\\Zap1097_Punteros_v2.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-11T13:31:58.735Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

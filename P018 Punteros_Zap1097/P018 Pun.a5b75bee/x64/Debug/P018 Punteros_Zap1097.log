@@ -1,0 +1,3 @@
+﻿  P018 Punteros_Zap1097.cpp
+C:\Users\User\Desktop\Tareas\GitHub\Fundamentos_Progra\P018 Punteros_Zap1097\P018 Punteros_Zap1097.cpp(35,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  P018 Punteros_Zap1097.vcxproj -> C:\Users\User\Desktop\Tareas\GitHub\Fundamentos_Progra\P018 Punteros_Zap1097\x64\Debug\P018 Punteros_Zap1097.exe
