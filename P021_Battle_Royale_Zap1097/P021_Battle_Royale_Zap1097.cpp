@@ -48,78 +48,87 @@ void aplicarPowerUp(Jugador& jugador)
     }
 }
 
-
-int enfrentamiento(const Jugador& j1, const Jugador& j2) 
-{
-    int puntuacion1 = j1.velocidad + j1.fuerza + j1.inteligencia + j1.resistencia;
-    int puntuacion2 = j2.velocidad + j2.fuerza + j2.inteligencia + j2.resistencia;
-    return puntuacion1 > puntuacion2 ? 1 : 2;
-}
-
-
-void mostrarJugador(const Jugador& jugador) 
+void mostrarJugador(const Jugador& jugador)
 {
     std::cout << "Jugador: " << jugador.nombre << ", Velocidad=" << jugador.velocidad
         << ", Fuerza=" << jugador.fuerza << ", Inteligencia=" << jugador.inteligencia
         << ", Resistencia=" << jugador.resistencia << ", Eliminado=" << (jugador.eliminado ? "Sí" : "No") << std::endl;
 }
 
+Jugador encontrarGanadorPorCategoria(const std::vector<Jugador>& jugadores, PowerUp categoria)
+{
+    auto comp = [categoria](const Jugador& j1, const Jugador& j2)
+        {
+            switch (categoria)
+            {
+            case VELOCIDAD:
+                return j1.velocidad < j2.velocidad;
+            case FUERZA:
+                return j1.fuerza < j2.fuerza;
+            case INTELIGENCIA:
+                return j1.inteligencia < j2.inteligencia;
+            case RESISTENCIA:
+                return j1.resistencia < j2.resistencia;
+            }
+            return false;
+        };
+
+    return *std::max_element(jugadores.begin(), jugadores.end(), comp);
+}
+
 int main()
 {
+    int  ganadorusve;
+    int ganadorusfu;
+    int ganadorusin;
+    int ganadorusre;
+
     std::locale::global(std::locale("en_US.UTF-8"));
 
-    srand(static_cast<unsigned int>(time(0))); 
+    srand(static_cast<unsigned int>(time(0)));
 
-  
     std::vector<std::string> nombres =
     {
-        "Ivan", "Jose", "Ivan Peña", "Sebas", "Jorge", "Rubén", "Aron", "Auronplay",
-        "Baitybait", "Mariano", "Marikar", "Osito_Bimobo", "Dr_Simi", "Mama_Lucha", "PikaPika",
-        "Lenteja", "Mau", "Diego", "Jose_Jose", "Zi"
+        "Ivan", "Peña", "Ivan Peña", "Sebas", "Jorge", "Rubén", "Aron", "Auronplay",
+        "Baitybait", "Mariano", "Marikar", "Osito Bimbo", "Dr. Simi", "Mama Lucha", "PikaPika",
+        "Lenteja", "Mau", "Diego", "José_José", "Esteban"
     };
 
-
     std::vector<Jugador> jugadores;
-    for (const auto& nombre : nombres) 
+    for (const auto& nombre : nombres)
     {
         Jugador jugador = { nombre, generarValor(), generarValor(), generarValor(), generarValor(), false };
-        aplicarPowerUp(jugador); 
+        aplicarPowerUp(jugador);
         jugadores.push_back(jugador);
     }
 
     std::cout << "Jugadores iniciales:\n";
-    for (const auto& jugador : jugadores) 
+    for (const auto& jugador : jugadores)
     {
         mostrarJugador(jugador);
     }
 
+    Jugador ganadorVelocidad = encontrarGanadorPorCategoria(jugadores, VELOCIDAD);
+    Jugador ganadorFuerza = encontrarGanadorPorCategoria(jugadores, FUERZA);
+    Jugador ganadorInteligencia = encontrarGanadorPorCategoria(jugadores, INTELIGENCIA);
+    Jugador ganadorResistencia = encontrarGanadorPorCategoria(jugadores, RESISTENCIA);
 
-    while (count_if(jugadores.begin(), jugadores.end(), [](const Jugador& j) { return !j.eliminado; }) > 1) 
-    {
-        for (size_t i = 0; i < jugadores.size(); i++) 
-        {
-            if (jugadores[i].eliminado) continue;
-            for (size_t j = i + 1; j < jugadores.size(); j++) 
-            {
-                if (jugadores[j].eliminado) continue;
+    std::cout << "Anota tus apuestas\n";
+    std::cout << "¿Quien crees que gane por velocidad?\n";
+    std::cin >> ganadorusve;
+    std::cout << "¿Quien crees que gane por fuerza?\n";
+    std::cin >> ganadorusfu;
+    std::cout << "¿Quien crees que gane por Inteligencia?\n";
+    std::cin >> ganadorusin;
+    std::cout << "¿Quien crees que gane por Resistencia?\n";
+    std::cin >> ganadorusre;
 
-                int ganador = enfrentamiento(jugadores[i], jugadores[j]);
-                if (ganador == 1) 
-                {
-                    jugadores[j].eliminado = true;
-                }
-                else 
-                {
-                    jugadores[i].eliminado = true;
-                    break;
-                }
-            }
-        }
-    }
+    std::cout << "\n¡Ganadores por categoría!\n";
+    std::cout << "Velocidad: " << ganadorVelocidad.nombre << " (Velocidad=" << ganadorVelocidad.velocidad << ")\n";
+    std::cout << "Fuerza: " << ganadorFuerza.nombre << " (Fuerza=" << ganadorFuerza.fuerza << ")\n";
+    std::cout << "Inteligencia: " << ganadorInteligencia.nombre << " (Inteligencia=" << ganadorInteligencia.inteligencia << ")\n";
+    std::cout << "Resistencia: " << ganadorResistencia.nombre << " (Resistencia=" << ganadorResistencia.resistencia << ")\n";
 
-    auto ganador = find_if(jugadores.begin(), jugadores.end(), [](const Jugador& j) { return !j.eliminado; });
-    std::cout << "\n¡El ganador es " << ganador->nombre << "!\n";
-    mostrarJugador(*ganador);
-
+   
     return 0;
 }
