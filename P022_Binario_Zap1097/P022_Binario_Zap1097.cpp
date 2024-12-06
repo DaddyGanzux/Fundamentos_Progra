@@ -20,7 +20,7 @@ void imprimirLento(const std::string& texto, int retrasoMilisegundos) {
 
 //--------------Función para convertir decimal a binario (como cadena)--------
 std::string decimalToBinary(int decimal) {
-    return std::bitset<8>(decimal).to_string();
+    return std::bitset<16>(decimal).to_string();
 }
 
 // -------------Función para convertir binario (como cadena) a decimal--------
@@ -79,7 +79,7 @@ int main() {
         {
             // ------------------Suma-------------------------
 
-            std::string sumBin = std::bitset<8>(num1 + num2).to_string();
+            std::string sumBin = std::bitset<16>(num1 + num2).to_string();
             std::cout << "Suma en binario: " << sumBin << std::endl;
 
             std::cout << "Suma decimal: " << (num1 + num2) << std::endl;
