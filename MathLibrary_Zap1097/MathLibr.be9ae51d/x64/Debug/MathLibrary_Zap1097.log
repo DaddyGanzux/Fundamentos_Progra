@@ -1,0 +1,2 @@
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\User\Desktop\Tareas\GitHub\Fundamentos_Progra\MathLibrary_Zap1097\x64\Debug\MathLibrary_Zap1097.exe : fatal error LNK1120: 1 externos sin resolver

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLibrary_Zap1097", "MathLibrary_Zap1097.vcxproj", "{BE9AE51D-30EE-43CA-9B24-F02E74697768}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE9AE51D-30EE-43CA-9B24-F02E74697768}.Debug|x64.ActiveCfg = Debug|x64
+		{BE9AE51D-30EE-43CA-9B24-F02E74697768}.Debug|x64.Build.0 = Debug|x64
+		{BE9AE51D-30EE-43CA-9B24-F02E74697768}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE9AE51D-30EE-43CA-9B24-F02E74697768}.Debug|x86.Build.0 = Debug|Win32
+		{BE9AE51D-30EE-43CA-9B24-F02E74697768}.Release|x64.ActiveCfg = Release|x64
+		{BE9AE51D-30EE-43CA-9B24-F02E74697768}.Release|x64.Build.0 = Release|x64
+		{BE9AE51D-30EE-43CA-9B24-F02E74697768}.Release|x86.ActiveCfg = Release|Win32
+		{BE9AE51D-30EE-43CA-9B24-F02E74697768}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {797123FD-10A9-48C1-934B-254FB221F310}
+	EndGlobalSection
+EndGlobal
