@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesktopApp", "DesktopApp\DesktopApp.vcxproj", "{FE90442C-C523-42C2-A760-D9FED8C805BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE90442C-C523-42C2-A760-D9FED8C805BF}.Debug|x64.ActiveCfg = Debug|x64
+		{FE90442C-C523-42C2-A760-D9FED8C805BF}.Debug|x64.Build.0 = Debug|x64
+		{FE90442C-C523-42C2-A760-D9FED8C805BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE90442C-C523-42C2-A760-D9FED8C805BF}.Debug|x86.Build.0 = Debug|Win32
+		{FE90442C-C523-42C2-A760-D9FED8C805BF}.Release|x64.ActiveCfg = Release|x64
+		{FE90442C-C523-42C2-A760-D9FED8C805BF}.Release|x64.Build.0 = Release|x64
+		{FE90442C-C523-42C2-A760-D9FED8C805BF}.Release|x86.ActiveCfg = Release|Win32
+		{FE90442C-C523-42C2-A760-D9FED8C805BF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {105A8615-661C-44EC-BA3D-8A0FE1E1FC99}
+	EndGlobalSection
+EndGlobal
